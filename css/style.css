@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .btn-primary {
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px 25px;
+    border: 0;
+    color: #005FAC;
+    font-weight: bold;
+    transition: 0.2s all ease;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .btn-primary:hover {
+    background-color: #005FAC;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  header {
+    background-image: url(/img/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 100px;
+  }
+  .header-text {
+    width: 50%;
+    text-align: right;
+  }
+  .header-text h1 {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header-text p {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .failures-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    padding: 0 100px;
+  }
+  .failure-left {
+    flex-basis: 50%;
+  }
+  .failure-left img {
+    width: 60%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .failure-right {
+    flex-basis: 50%;
+  }
+  .failure-right h3 {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .failure-right p {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .failure-right li {
+    text-decoration: none;
+    list-style: none;
+  }
+  .failure-right li::before {
+    content: "✔ ";
+    color: rgba(22, 216, 135, 1);
+  }
+  .plan-section {
+    padding: 0 100px;
+    overflow: hidden;
+  }
+  .plan-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .plan {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .plan-box img {
+    display: block;
+    margin: 0 auto;
+  }
+  .plan-box h4 {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .plan-box p {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .positive-section {
+    padding: 0 100px;
+    width: 100%;
+    height: 50vh;
+    margin: 50px 0;
+  }
+  .positive-text {
+    border-radius: 8px;
+    height: 100%;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%),
+      url(/img/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 50px 60px;
+  }
+  .positive-text h1 {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .btn {
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #005FAC;
+    color: #fff;
+    border: 0;
+    transition: 0.2s all ease;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    background-color: #fff;
+    color: #005FAC;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #000000;
+    height: 300px;
+  }
+  
+  .h1 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .footer-left {
+    flex-basis: 50%;
+  }
+  .footer-right {
+    flex-basis: 40%;
+  }
+  .footer-left p {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .email {
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    background-color: #000000;
+    display: block;
+  }
+  .social img{
+      cursor: pointer;
+      margin-right: 10px;
+  }
+  
